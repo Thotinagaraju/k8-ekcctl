@@ -6,6 +6,6 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-  - name: 
+  - name: regular
     instanceType: m5.large
     desiredCapacity: 3
