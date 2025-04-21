@@ -6,6 +6,6 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-  - name: spot
+
     instanceType: m5.large
     desiredCapacity: 3
