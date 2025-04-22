@@ -8,7 +8,7 @@ terraform {
 
    backend "s3" {
     bucket = "nagaraj-state-remote"
-    key    = "k8-eksctl"
+    key    = "eksctl"
     region = "us-east-1"
     dynamodb_table = "nagaraj-locking"
   }
